@@ -22,5 +22,6 @@ public class Button : NetworkBehaviour
 			OnMouseDown();
 		if(Input.GetKeyUp(linkedButton))
 			OnMouseUp();
+
 	}
 }
